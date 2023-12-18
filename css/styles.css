@@ -26,9 +26,6 @@ body {
   color: #2e2f42;
 }
 
-address {
-}
-
 .adress1 {
   font-size: 16px;
   font-weight: 400px;
@@ -63,8 +60,6 @@ address {
 }
 
 /* advantages */
-.advantages {
-}
 
 .advantages-title {
   font-size: 20px;
