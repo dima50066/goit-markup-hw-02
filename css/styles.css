@@ -1,6 +1,7 @@
 body {
-  font-family: "Roboto", Raleway;
+  font-family: "Roboto", sans-serif;
   background: #fff;
+  color: #434455;
 }
 
 /* header */
@@ -8,7 +9,9 @@ body {
 .logo {
   font-size: 18px;
   font-weight: 700;
-  line-height: 21px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .menu-web {
@@ -19,12 +22,20 @@ body {
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 address {
+}
+
+.adress1 {
   font-size: 16px;
   font-weight: 400px;
   line-height: 24px;
+  font-style: normal;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 /* main */
@@ -35,7 +46,10 @@ address {
 .main-title {
   font-size: 56px;
   font-weight: 700;
-  line-height: 60px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffffff;
 }
 
 .main-button {
@@ -44,6 +58,8 @@ address {
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
+  letter-spacing: 0.04em;
+  color: #ffffff;
 }
 
 /* advantages */
@@ -54,11 +70,15 @@ address {
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .advantages-main {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 /* team */
@@ -69,19 +89,28 @@ address {
 .team-title {
   font-size: 36px;
   font-weight: 700;
-  line-height: 40px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 
 .team-name {
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
+  background-color: #ffffff;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .team-position {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 /* portfolio */
@@ -91,18 +120,26 @@ address {
 .portfolio-title {
   font-size: 36px;
   font-weight: 700;
-  line-height: 40px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 
 .portfolio-name {
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .portfolio-class {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 /* footer */
