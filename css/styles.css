@@ -121,6 +121,9 @@ body {
   text-transform: capitalize;
   color: #2e2f42;
 }
+.team-li {
+  background-color: #ffffff;
+}
 
 .team-name {
   font-size: 20px;
