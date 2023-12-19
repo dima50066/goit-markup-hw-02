@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   background: #fff;
   color: #434455;
 }
@@ -12,10 +12,12 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  color: #4d5ae5;
 }
 
-.menu-web {
-  color: #4d5ae5;
+.logo-span {
+  color: #2e2f42;
 }
 
 .nav-menu {
@@ -25,14 +27,36 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+.menu-button {
+  color: #2e2f42;
+}
+.menu-button:hover {
+  color: #404bbf;
+}
 
-.adress1 {
+.menu-button:focus {
+  color: #404bbf;
+}
+
+.mailtel {
   font-size: 16px;
   font-weight: 400px;
   line-height: 24px;
   font-style: normal;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.mailtel-class {
+  color: #434455;
+}
+
+.mailtel-class:hover {
+  color: #404bbf;
+}
+
+.mailtel-class:focus {
+  color: #404bbf;
 }
 
 /* main */
@@ -59,8 +83,15 @@ body {
   color: #ffffff;
 }
 
-/* advantages */
+.main-button:hover {
+  background-color: #404bbf;
+}
 
+.main-button:focus {
+  background-color: #404bbf;
+}
+
+/* advantages */
 .advantages-title {
   font-size: 20px;
   font-weight: 500;
@@ -146,4 +177,10 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+
+.footer-span {
+  color: #f4f4fd;
 }
