@@ -4,6 +4,14 @@ body {
   color: #434455;
 }
 
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
 /* header */
 
 .logo {
